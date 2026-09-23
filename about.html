@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About MedCivic — a nonprofit organization advancing medicine, technology, and the public good through research, education, and Internet governance." />
+  <title>About Us | MedCivic</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- =====================================================================
+       Navigation
+       ===================================================================== -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="navbar-logo">
+        <a href="index.html" aria-label="MedCivic home">MedCivic</a>
+      </div>
+
+      <div class="navbar-links" id="navbar-links">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active" aria-current="page">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="policy.html">Policy</a>
+        <a href="research.html">Research</a>
+        <a href="news.html" style="display:none;">News</a>
+        <a href="contact.html">Contact</a>
+        <a href="donate.html" class="btn-donate-nav">Donate</a>
+      </div>
+
+      <button class="navbar-toggle" id="navbar-toggle" aria-controls="navbar-mobile" aria-expanded="false" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="navbar-mobile" id="navbar-mobile" aria-hidden="true">
+    <a href="index.html">Home</a>
+    <a href="about.html" class="active" aria-current="page">About</a>
+    <a href="programs.html">Programs</a>
+    <a href="policy.html">Policy</a>
+    <a href="research.html">Research</a>
+    <a href="news.html" style="display:none;">News</a>
+    <a href="contact.html">Contact</a>
+    <a href="donate.html" class="btn-donate-mobile">Donate</a>
+  </div>
+
+  <!-- =====================================================================
+       Main Content
+       ===================================================================== -->
+  <main>
+
+    <!-- Page Header -->
+    <section class="page-header" aria-labelledby="pageTitle">
+      <div class="container">
+        <h1 id="pageTitle">About MedCivic</h1>
+        <p class="page-subtitle">Advancing medicine, technology and the public good</p>
+      </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <div class="container">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb-sep" aria-hidden="true"></span>
+        <span class="breadcrumb-current" aria-current="page">About</span>
+      </div>
+    </nav>
+
+    <!-- ===================================================================
+         Intro Section with Tabs
+         =================================================================== -->
+    <section class="section section-white" aria-labelledby="introHeading">
+      <div class="container">
+        <div class="section-header">
+          <p id="introHeading" style="font-size: 1.15rem; line-height: 1.7; color: var(--color-text-mid); max-width: 780px;">
+            MedCivic is a nonprofit organization founded by students, researchers and community volunteers
+            dedicated to building a safer, more trustworthy Internet.
+          </p>
+        </div>
+
+        <!-- Tabs -->
+        <div class="tabs" role="tablist" aria-label="About MedCivic">
+          <button class="tab-btn active" role="tab" aria-selected="true"  aria-controls="tab-mission"  id="btn-mission">Our Mission</button>
+          <button class="tab-btn"        role="tab" aria-selected="false" aria-controls="tab-vision"   id="btn-vision">Our Vision</button>
+          <button class="tab-btn"        role="tab" aria-selected="false" aria-controls="tab-values"   id="btn-values">Our Values</button>
+          <button class="tab-btn"        role="tab" aria-selected="false" aria-controls="tab-story"    id="btn-story">Our Story</button>
+        </div>
+
+        <!-- Tab Panel: Mission -->
+        <div class="tab-panel active" id="tab-mission" role="tabpanel" aria-labelledby="btn-mission">
+          <p>
+            MedCivic's mission is to advance research, education, and public interest policy at the
+            intersection of medicine, public health, technology, and Internet governance. We focus on
+            privacy, security, and trust — ensuring these principles benefit everyone, not just the
+            technologically privileged.
+          </p>
+          <p>
+            We believe that students and early-career researchers are uniquely positioned to bridge the
+            gap between technical communities and the broader public. Our work reflects that belief every day.
+          </p>
+        </div>
+
+        <!-- Tab Panel: Vision -->
+        <div class="tab-panel" id="tab-vision" role="tabpanel" aria-labelledby="btn-vision" hidden>
+          <p>
+            We envision a world where the Internet serves as a force for health equity and public good —
+            where medical information is accurate and accessible, digital privacy is a universal right,
+            and technology governance reflects the needs of all communities.
+          </p>
+          <p>
+            MedCivic strives to be a trusted voice at the intersection of science, policy, and civic
+            engagement, shaping a future where technology strengthens rather than undermines public health.
+          </p>
+        </div>
+
+        <!-- Tab Panel: Values -->
+        <div class="tab-panel" id="tab-values" role="tabpanel" aria-labelledby="btn-values" hidden>
+          <ul style="padding-left: 0; list-style: none; display: grid; gap: 16px;">
+            <li style="display: flex; gap: 16px; align-items: flex-start;">
+              <div class="icon-circle icon-circle-sm icon-circle-accent" aria-hidden="true" style="flex-shrink:0;">&#10003;</div>
+              <div>
+                <strong style="color: var(--color-navy);">Integrity</strong>
+                <p style="margin-top: 4px; margin-bottom: 0;">We are committed to honest, evidence-based work — free from commercial or political influence.</p>
+              </div>
+            </li>
+            <li style="display: flex; gap: 16px; align-items: flex-start;">
+              <div class="icon-circle icon-circle-sm icon-circle-accent" aria-hidden="true" style="flex-shrink:0;">&#10003;</div>
+              <div>
+                <strong style="color: var(--color-navy);">Inclusion</strong>
+                <p style="margin-top: 4px; margin-bottom: 0;">We center the voices and needs of communities historically excluded from technology and health policy discussions.</p>
+              </div>
+            </li>
+            <li style="display: flex; gap: 16px; align-items: flex-start;">
+              <div class="icon-circle icon-circle-sm icon-circle-accent" aria-hidden="true" style="flex-shrink:0;">&#10003;</div>
+              <div>
+                <strong style="color: var(--color-navy);">Collaboration</strong>
+                <p style="margin-top: 4px; margin-bottom: 0;">Complex challenges require interdisciplinary teams. We build coalitions across medicine, law, technology, and civil society.</p>
+              </div>
+            </li>
+            <li style="display: flex; gap: 16px; align-items: flex-start;">
+              <div class="icon-circle icon-circle-sm icon-circle-accent" aria-hidden="true" style="flex-shrink:0;">&#10003;</div>
+              <div>
+                <strong style="color: var(--color-navy);">Transparency</strong>
+                <p style="margin-top: 4px; margin-bottom: 0;">Our research methods, funding sources, and decision-making processes are open to public scrutiny.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Tab Panel: Story -->
+        <div class="tab-panel" id="tab-story" role="tabpanel" aria-labelledby="btn-story" hidden>
+          <p>
+            MedCivic was founded by a small group of medical students and computer science researchers
+            who recognized a troubling gap: health misinformation was spreading faster than the public
+            health community could respond, and the Internet governance bodies that could address it
+            rarely included medical voices.
+          </p>
+          <p>
+            What began as an informal reading group in 2020 has grown into a nationwide network of
+            student chapters, affiliated researchers, and community partners working together on
+            research, education, and policy advocacy.
+          </p>
+          <p>
+            Today, MedCivic collaborates with public health agencies, academic institutions, and
+            civil society organizations to ensure that medicine and public health are represented
+            wherever Internet policy is made.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         Our Mission Section (Light Blue Background)
+         =================================================================== -->
+    <section class="section section-light-blue" aria-labelledby="missionHeading">
+      <div class="container">
+
+        <div class="section-header text-center">
+          <h2 class="section-title" id="missionHeading">Our Mission</h2>
+          <p class="section-subtitle">
+            To advance research, education, and public interest policy at the intersection of medicine,
+            public health, technology and Internet governance, with a focus on privacy, security, and
+            trust for all.
+          </p>
+        </div>
+
+        <!-- 4-Pillar Grid -->
+        <div class="feature-grid" role="list" aria-label="Mission pillars">
+
+          <!-- Pillar 1: Student-Led Initiative -->
+          <article class="feature-card" role="listitem">
+            <div class="icon-circle" aria-hidden="true">&#127891;</div>
+            <h3 class="feature-card-title">Student-Led Initiative</h3>
+            <p class="feature-card-text">
+              Rooted in student energy and curiosity, MedCivic is built by the next generation of
+              researchers and public health advocates who bring fresh perspectives to longstanding challenges.
+            </p>
+          </article>
+
+          <!-- Pillar 2: Research Driven -->
+          <article class="feature-card" role="listitem">
+            <div class="icon-circle" aria-hidden="true">&#128202;</div>
+            <h3 class="feature-card-title">Research Driven</h3>
+            <p class="feature-card-text">
+              Every position we advocate and every resource we publish is grounded in rigorous,
+              peer-reviewed evidence. We let data guide our work and remain open to updating our views.
+            </p>
+          </article>
+
+          <!-- Pillar 3: Public Impact -->
+          <article class="feature-card" role="listitem">
+            <div class="icon-circle" aria-hidden="true">&#127963;</div>
+            <h3 class="feature-card-title">Public Impact</h3>
+            <p class="feature-card-text">
+              Our ultimate measure of success is whether our work makes the Internet safer and healthier
+              for ordinary people — not just for experts or institutions.
+            </p>
+          </article>
+
+          <!-- Pillar 4: Global Perspective -->
+          <article class="feature-card" role="listitem">
+            <div class="icon-circle" aria-hidden="true">&#127758;</div>
+            <h3 class="feature-card-title">Global Perspective</h3>
+            <p class="feature-card-text">
+              Internet health and medical misinformation are global challenges. We engage with
+              international partners and governance forums to ensure solutions work across borders and cultures.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         Trust Section — Four pillars in a row
+         =================================================================== -->
+    <section class="section section-navy" aria-labelledby="trustHeading">
+      <div class="container">
+
+        <div class="section-header text-center">
+          <h2 class="section-title" id="trustHeading" style="color: var(--color-white);">What We Stand For</h2>
+          <p class="section-subtitle" style="color: rgba(255,255,255,0.75);">
+            Four principles that guide every project, publication, and partnership.
+          </p>
+        </div>
+
+        <div class="grid-4" role="list" aria-label="Core principles">
+
+          <!-- Trust -->
+          <div class="trust-item" role="listitem" style="text-align: center; padding: 30px 20px;">
+            <div class="icon-circle icon-circle-lg" aria-hidden="true" style="margin: 0 auto 20px; background-color: rgba(255,255,255,0.12);">
+              &#128274;
+            </div>
+            <h3 style="color: var(--color-white); font-size: 1.25rem; margin-bottom: 12px;">Trust</h3>
+            <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; line-height: 1.6; margin-bottom: 0;">
+              We build systems and norms that make it easier for people to identify reliable health
+              information and harder for bad actors to exploit the Internet's reach.
+            </p>
+          </div>
+
+          <!-- Research -->
+          <div class="trust-item" role="listitem" style="text-align: center; padding: 30px 20px;">
+            <div class="icon-circle icon-circle-lg" aria-hidden="true" style="margin: 0 auto 20px; background-color: rgba(255,255,255,0.12);">
+              &#128270;
+            </div>
+            <h3 style="color: var(--color-white); font-size: 1.25rem; margin-bottom: 12px;">Research</h3>
+            <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; line-height: 1.6; margin-bottom: 0;">
+              Original empirical research is the foundation of everything we publish. We publish openly
+              and invite scrutiny because that is how science improves.
+            </p>
+          </div>
+
+          <!-- Education -->
+          <div class="trust-item" role="listitem" style="text-align: center; padding: 30px 20px;">
+            <div class="icon-circle icon-circle-lg" aria-hidden="true" style="margin: 0 auto 20px; background-color: rgba(255,255,255,0.12);">
+              &#128218;
+            </div>
+            <h3 style="color: var(--color-white); font-size: 1.25rem; margin-bottom: 12px;">Education</h3>
+            <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; line-height: 1.6; margin-bottom: 0;">
+              From curriculum resources for health professionals to public-facing media literacy programs,
+              we translate research into learning that reaches every level.
+            </p>
+          </div>
+
+          <!-- Public Impact -->
+          <div class="trust-item" role="listitem" style="text-align: center; padding: 30px 20px;">
+            <div class="icon-circle icon-circle-lg" aria-hidden="true" style="margin: 0 auto 20px; background-color: rgba(255,255,255,0.12);">
+              &#128313;
+            </div>
+            <h3 style="color: var(--color-white); font-size: 1.25rem; margin-bottom: 12px;">Public Impact</h3>
+            <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; line-height: 1.6; margin-bottom: 0;">
+              Research and education only matter if they drive change. We engage policymakers, platforms,
+              and communities to turn findings into meaningful real-world improvements.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         Call to Action
+         =================================================================== -->
+    <section class="section section-white" aria-labelledby="ctaHeading">
+      <div class="container" style="text-align: center;">
+        <div class="section-header text-center">
+          <h2 class="section-title" id="ctaHeading">Get Involved</h2>
+          <p class="section-subtitle">
+            MedCivic is a volunteer-driven organization. Whether you are a student, researcher,
+            clinician, or concerned citizen, there is a place for you here.
+          </p>
+        </div>
+        <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+          <a href="contact.html" class="btn btn-primary btn-lg">Join Us</a>
+          <a href="research.html" class="btn btn-secondary btn-lg">Explore Our Research</a>
+          <a href="donate.html" class="btn btn-donate btn-lg">Donate</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =====================================================================
+       Footer
+       ===================================================================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-main">
+      <div class="container">
+        <div class="footer-grid">
+
+          <!-- Brand Column -->
+          <div class="footer-brand">
+            <a href="index.html" class="footer-logo">MedCivic</a>
+            <span class="footer-tagline">Medicine · Technology · Public Good</span>
+            <p>
+              A nonprofit organization advancing research, education, and public interest policy at
+              the intersection of medicine, public health, and Internet governance.
+            </p>
+            <!-- Social Links -->
+            <div class="footer-social" aria-label="Social media links">
+              <a href="#" aria-label="Twitter / X">&#120143;</a>
+              <a href="#" aria-label="LinkedIn">in</a>
+              <a href="#" aria-label="GitHub">gh</a>
+              <a href="#" aria-label="Email newsletter">&#9993;</a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <nav class="footer-links" aria-label="Quick links">
+              <a href="about.html">About Us</a>
+              <a href="research.html">Research</a>
+              <a href="education.html">Education</a>
+              <a href="policy.html">Policy</a>
+              <a href="news.html">News &amp; Events</a>
+              <a href="contact.html">Contact</a>
+            </nav>
+          </div>
+
+          <!-- Resources -->
+          <div class="footer-col">
+            <h4>Resources</h4>
+            <nav class="footer-links" aria-label="Resources">
+              <a href="#">Publications</a>
+              <a href="#">Policy Briefs</a>
+              <a href="#">Media Kit</a>
+              <a href="#">Student Resources</a>
+              <a href="#">Partner Organizations</a>
+            </nav>
+          </div>
+
+          <!-- Contact -->
+          <div class="footer-col footer-contact">
+            <h4>Contact</h4>
+            <address>
+              <p>MedCivic Nonprofit Organization</p>
+              <p>
+                <a href="mailto:info@medcivic.org">info@medcivic.org</a>
+              </p>
+              <p>
+                <a href="https://medcivic.org" target="_blank" rel="noopener noreferrer">medcivic.org</a>
+              </p>
+            </address>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom Bar -->
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2024 MedCivic. All rights reserved. MedCivic is a registered 501(c)(3) nonprofit organization.</p>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Use</a>
+          <a href="accessibility.html">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =====================================================================
+       JavaScript — Mobile Menu + Tabs
+       ===================================================================== -->
+  <script>
+    // ---------------------------------------------------------------------------
+    // Mobile nav toggle
+    // ---------------------------------------------------------------------------
+    (function () {
+      const toggle = document.getElementById('navbar-toggle');
+      const mobileNav = document.getElementById('navbar-mobile');
+
+      if (!toggle || !mobileNav) return;
+
+      toggle.addEventListener('click', function () {
+        const isOpen = mobileNav.classList.toggle('open');
+        toggle.classList.toggle('open', isOpen);
+        toggle.setAttribute('aria-expanded', String(isOpen));
+        mobileNav.style.display = isOpen ? 'block' : '';
+      });
+
+      // Close mobile nav when a link inside it is clicked
+      mobileNav.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', function () {
+          mobileNav.classList.remove('open');
+          toggle.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+          mobileNav.style.display = '';
+        });
+      });
+    }());
+
+    // ---------------------------------------------------------------------------
+    // Tabs
+    // ---------------------------------------------------------------------------
+    (function () {
+      const tabBtns  = document.querySelectorAll('.tab-btn');
+      const tabPanels = document.querySelectorAll('.tab-panel');
+
+      tabBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          const targetId = btn.getAttribute('aria-controls');
+
+          // Deactivate all tabs
+          tabBtns.forEach(function (b) {
+            b.classList.remove('active');
+            b.setAttribute('aria-selected', 'false');
+          });
+
+          // Hide all panels
+          tabPanels.forEach(function (panel) {
+            panel.classList.remove('active');
+            panel.hidden = true;
+          });
+
+          // Activate clicked tab
+          btn.classList.add('active');
+          btn.setAttribute('aria-selected', 'true');
+
+          // Show target panel
+          const target = document.getElementById(targetId);
+          if (target) {
+            target.classList.add('active');
+            target.hidden = false;
+          }
+        });
+      });
+
+      // Keyboard navigation for tabs (left/right arrow keys)
+      tabBtns.forEach(function (btn, index) {
+        btn.addEventListener('keydown', function (e) {
+          let newIndex = null;
+          if (e.key === 'ArrowRight') {
+            newIndex = (index + 1) % tabBtns.length;
+          } else if (e.key === 'ArrowLeft') {
+            newIndex = (index - 1 + tabBtns.length) % tabBtns.length;
+          } else if (e.key === 'Home') {
+            newIndex = 0;
+          } else if (e.key === 'End') {
+            newIndex = tabBtns.length - 1;
+          }
+          if (newIndex !== null) {
+            e.preventDefault();
+            tabBtns[newIndex].focus();
+            tabBtns[newIndex].click();
+          }
+        });
+      });
+    }());
+  </script>
+
+</body>
+</html>

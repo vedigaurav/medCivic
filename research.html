@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research | MedCivic</title>
+  <meta name="description" content="MedCivic research exploring the intersection of medicine, technology, and public policy — digital health, privacy, AI, and Internet governance." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- =====================================================================
+       Navigation
+  ====================================================================== -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="navbar-logo">
+        <a href="index.html" aria-label="MedCivic home">MedCivic</a>
+      </div>
+
+      <div class="navbar-links" id="navbar-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="policy.html">Policy</a>
+        <a href="research.html" class="active" aria-current="page">Research</a>
+        <a href="news.html" style="display:none;">News</a>
+        <a href="contact.html">Contact</a>
+        <a href="donate.html" class="btn-donate-nav">Donate</a>
+      </div>
+
+      <button class="navbar-toggle" id="navbar-toggle" aria-controls="navbar-mobile" aria-expanded="false" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <div class="navbar-mobile" id="navbar-mobile" aria-hidden="true">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="programs.html">Programs</a>
+    <a href="policy.html">Policy</a>
+    <a href="research.html" class="active" aria-current="page">Research</a>
+    <a href="news.html" style="display:none;">News</a>
+    <a href="contact.html">Contact</a>
+    <a href="donate.html" class="btn-donate-mobile">Donate</a>
+  </div>
+
+  <main>
+
+    <!-- ===================================================================
+         Page Header
+    ==================================================================== -->
+    <header class="page-header">
+      <div class="container">
+        <h1>Research</h1>
+        <p class="page-subtitle">Exploring the intersection of medicine, technology and public policy</p>
+      </div>
+    </header>
+
+    <!-- ===================================================================
+         Breadcrumb
+    ==================================================================== -->
+    <div class="breadcrumb">
+      <div class="container">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb-sep"></span>
+        <span class="breadcrumb-current">Research</span>
+      </div>
+    </div>
+
+    <!-- ===================================================================
+         Tabs + Tab Content
+    ==================================================================== -->
+    <section class="section section-white">
+      <div class="container">
+
+        <div class="tabs" role="tablist" aria-label="Research sections">
+          <button class="tab-btn active" role="tab" aria-selected="true"  aria-controls="panel-focus"        id="tab-focus">Research Focus Areas</button>
+          <button class="tab-btn"        role="tab" aria-selected="false" aria-controls="panel-publications" id="tab-publications">Publications</button>
+          <button class="tab-btn"        role="tab" aria-selected="false" aria-controls="panel-projects"     id="tab-projects">Student Projects</button>
+          <button class="tab-btn"        role="tab" aria-selected="false" aria-controls="panel-partners"     id="tab-partners">Partners</button>
+        </div>
+
+        <!-- Tab Panel: Research Focus Areas -->
+        <div class="tab-panel active" id="panel-focus" role="tabpanel" aria-labelledby="tab-focus">
+
+          <div class="grid-3" style="margin-bottom: 40px;">
+
+            <!-- 1. Digital Health & Patient Safety -->
+            <div class="card" style="text-align: center;">
+              <div class="icon-circle icon-circle-accent" style="margin: 0 auto 18px;" aria-hidden="true">
+                <!-- Heart / health icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true" focusable="false">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                </svg>
+              </div>
+              <h3 class="card-title">Digital Health &amp; Patient Safety</h3>
+              <p class="card-text">Evaluating digital health tools, telehealth platforms, and medical apps for safety, accuracy, and equity impacts on patients and providers.</p>
+            </div>
+
+            <!-- 2. Privacy, PII & Health Data Security -->
+            <div class="card" style="text-align: center;">
+              <div class="icon-circle icon-circle-accent" style="margin: 0 auto 18px;" aria-hidden="true">
+                <!-- Lock icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true" focusable="false">
+                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                </svg>
+              </div>
+              <h3 class="card-title">Privacy, PII &amp; Health Data Security</h3>
+              <p class="card-text">Investigating how personal health information is collected, shared, and protected across platforms, apps, and public health systems.</p>
+            </div>
+
+            <!-- 3. Online Health Fraud & DNS Abuse -->
+            <div class="card" style="text-align: center;">
+              <div class="icon-circle icon-circle-accent" style="margin: 0 auto 18px;" aria-hidden="true">
+                <!-- Warning / alert triangle icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true" focusable="false">
+                  <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+                  <line x1="12" y1="9" x2="12" y2="13"/>
+                  <line x1="12" y1="17" x2="12.01" y2="17"/>
+                </svg>
+              </div>
+              <h3 class="card-title">Online Health Fraud &amp; DNS Abuse</h3>
+              <p class="card-text">Studying deceptive health websites, counterfeit pharmacy domains, and DNS-layer abuse that exposes patients to unsafe products and misinformation.</p>
+            </div>
+
+            <!-- 4. AI & Medicine -->
+            <div class="card" style="text-align: center;">
+              <div class="icon-circle icon-circle-accent" style="margin: 0 auto 18px;" aria-hidden="true">
+                <!-- Brain / AI icon (circuit brain) -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true" focusable="false">
+                  <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96-.46 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.44-3.14A2.5 2.5 0 0 1 9.5 2z"/>
+                  <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96-.46 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.44-3.14A2.5 2.5 0 0 0 14.5 2z"/>
+                </svg>
+              </div>
+              <h3 class="card-title">AI &amp; Medicine</h3>
+              <p class="card-text">Examining the ethical, regulatory, and clinical implications of artificial intelligence in diagnostics, treatment recommendations, and healthcare delivery.</p>
+            </div>
+
+            <!-- 5. Internet Governance & Public Policy -->
+            <div class="card" style="text-align: center;">
+              <div class="icon-circle icon-circle-accent" style="margin: 0 auto 18px;" aria-hidden="true">
+                <!-- Globe icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true" focusable="false">
+                  <circle cx="12" cy="12" r="10"/>
+                  <line x1="2" y1="12" x2="22" y2="12"/>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                </svg>
+              </div>
+              <h3 class="card-title">Internet Governance &amp; Public Policy</h3>
+              <p class="card-text">Analyzing global policy frameworks, domain name governance, and regulatory approaches that affect health information access and online safety.</p>
+            </div>
+
+            <!-- 6. Research & Impact Reports -->
+            <div class="card" style="text-align: center;">
+              <div class="icon-circle icon-circle-accent" style="margin: 0 auto 18px;" aria-hidden="true">
+                <!-- Bar chart icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true" focusable="false">
+                  <line x1="18" y1="20" x2="18" y2="10"/>
+                  <line x1="12" y1="20" x2="12" y2="4"/>
+                  <line x1="6"  y1="20" x2="6"  y2="14"/>
+                  <line x1="2"  y1="20" x2="22" y2="20"/>
+                </svg>
+              </div>
+              <h3 class="card-title">Research &amp; Impact Reports</h3>
+              <p class="card-text">Publishing accessible, evidence-based reports that translate our findings into actionable policy recommendations for regulators, providers, and the public.</p>
+            </div>
+
+          </div><!-- /.grid-3 -->
+
+          <p style="text-align: center; color: var(--color-text-mid); font-size: 1rem; max-width: 680px; margin: 0 auto;">
+            Our research informs real-world solutions for a healthier and more trustworthy Internet.
+          </p>
+
+        </div><!-- /#panel-focus -->
+
+        <!-- Tab Panel: Publications -->
+        <div class="tab-panel" id="panel-publications" role="tabpanel" aria-labelledby="tab-publications">
+          <div class="section-header">
+            <h2 class="section-title">Publications</h2>
+            <p class="section-subtitle">Peer-reviewed articles, white papers, and policy briefs produced by MedCivic researchers and student contributors.</p>
+          </div>
+
+          <div class="grid-2">
+            <div class="card">
+              <span class="news-card-tag" style="display: inline-block; margin-bottom: 12px;">White Paper</span>
+              <h3 class="card-title">Health Domain Abuse: Patterns and Policy Gaps</h3>
+              <p class="card-text" style="font-size: 0.85rem; color: var(--color-text-mid); margin-bottom: 6px;">Authors: MedCivic Research Team &nbsp;·&nbsp; 2024</p>
+              <p class="card-text">An analysis of DNS-layer abuse targeting health consumers, including rogue pharmacy domains, health misinformation sites, and counterfeit telehealth portals.</p>
+              <a href="#" class="news-card-link">Download PDF</a>
+            </div>
+
+            <div class="card">
+              <span class="news-card-tag" style="display: inline-block; margin-bottom: 12px;">Policy Brief</span>
+              <h3 class="card-title">AI Diagnostic Tools: Transparency Requirements for FDA Approval</h3>
+              <p class="card-text" style="font-size: 0.85rem; color: var(--color-text-mid); margin-bottom: 6px;">Authors: MedCivic Research Team &nbsp;·&nbsp; 2024</p>
+              <p class="card-text">Recommendations for strengthening FDA guidance on explainability and bias auditing requirements for AI-based medical devices.</p>
+              <a href="#" class="news-card-link">Download PDF</a>
+            </div>
+
+            <div class="card">
+              <span class="news-card-tag" style="display: inline-block; margin-bottom: 12px;">Student Research</span>
+              <h3 class="card-title">Mobile Health Apps &amp; HIPAA: A Compliance Audit</h3>
+              <p class="card-text" style="font-size: 0.85rem; color: var(--color-text-mid); margin-bottom: 6px;">Authors: MedCivic Student Team &nbsp;·&nbsp; 2023</p>
+              <p class="card-text">A systematic review of privacy practices in the 50 most-downloaded mHealth apps, benchmarked against HIPAA technical safeguard standards.</p>
+              <a href="#" class="news-card-link">Read Report</a>
+            </div>
+
+            <div class="card">
+              <span class="news-card-tag" style="display: inline-block; margin-bottom: 12px;">Impact Report</span>
+              <h3 class="card-title">2023 Annual Research Impact Report</h3>
+              <p class="card-text" style="font-size: 0.85rem; color: var(--color-text-mid); margin-bottom: 6px;">MedCivic &nbsp;·&nbsp; 2023</p>
+              <p class="card-text">A summary of MedCivic's research output, policy engagement, and measurable impact on digital health safety and Internet governance debates.</p>
+              <a href="#" class="news-card-link">View Report</a>
+            </div>
+          </div>
+        </div><!-- /#panel-publications -->
+
+        <!-- Tab Panel: Student Projects -->
+        <div class="tab-panel" id="panel-projects" role="tabpanel" aria-labelledby="tab-projects">
+          <div class="section-header">
+            <h2 class="section-title">Student Projects</h2>
+            <p class="section-subtitle">Hands-on research and advocacy projects led by student members, from early scoping to published findings.</p>
+          </div>
+
+          <div class="grid-3">
+            <div class="card" style="text-align: center;">
+              <div class="icon-circle-sm icon-circle" style="margin: 0 auto 14px; background-color: var(--color-accent);" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     focusable="false">
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                </svg>
+              </div>
+              <h3 class="card-title">Telehealth Platform Audit</h3>
+              <p class="card-text">Student team evaluating leading telehealth platforms for data-sharing practices, informed consent clarity, and cross-device tracking.</p>
+              <span class="news-card-tag" style="margin-top: 12px; display: inline-block;">In Progress</span>
+            </div>
+
+            <div class="card" style="text-align: center;">
+              <div class="icon-circle-sm icon-circle" style="margin: 0 auto 14px; background-color: var(--color-accent);" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     focusable="false">
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                </svg>
+              </div>
+              <h3 class="card-title">Wearable Health Device Privacy</h3>
+              <p class="card-text">Mapping the data flows from consumer wearables to third-party advertisers and insurance partners, with policy recommendations.</p>
+              <span class="news-card-tag" style="margin-top: 12px; display: inline-block;">Completed</span>
+            </div>
+
+            <div class="card" style="text-align: center;">
+              <div class="icon-circle-sm icon-circle" style="margin: 0 auto 14px; background-color: var(--color-accent);" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     focusable="false">
+                  <circle cx="11" cy="11" r="8"/>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                </svg>
+              </div>
+              <h3 class="card-title">Counterfeit Drug Domain Mapping</h3>
+              <p class="card-text">Using DNS and WHOIS data to identify and report clusters of illegal online pharmacy domains targeting US and EU consumers.</p>
+              <span class="news-card-tag" style="margin-top: 12px; display: inline-block;">In Progress</span>
+            </div>
+
+            <div class="card" style="text-align: center;">
+              <div class="icon-circle-sm icon-circle" style="margin: 0 auto 14px; background-color: var(--color-accent);" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     focusable="false">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+              </div>
+              <h3 class="card-title">Algorithmic Bias in Clinical AI</h3>
+              <p class="card-text">Reviewing published literature on racial and gender bias in FDA-authorized AI/ML-based clinical decision support tools.</p>
+              <span class="news-card-tag" style="margin-top: 12px; display: inline-block;">Recruiting</span>
+            </div>
+
+            <div class="card" style="text-align: center;">
+              <div class="icon-circle-sm icon-circle" style="margin: 0 auto 14px; background-color: var(--color-accent);" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     focusable="false">
+                  <rect x="2" y="3" width="20" height="14" rx="2"/>
+                  <line x1="8" y1="21" x2="16" y2="21"/>
+                  <line x1="12" y1="17" x2="12" y2="21"/>
+                </svg>
+              </div>
+              <h3 class="card-title">Health Misinformation on Social Media</h3>
+              <p class="card-text">Tracking the spread of vaccine and treatment misinformation across major platforms, with engagement pattern analysis.</p>
+              <span class="news-card-tag" style="margin-top: 12px; display: inline-block;">Completed</span>
+            </div>
+
+            <div class="card" style="text-align: center;">
+              <div class="icon-circle-sm icon-circle" style="margin: 0 auto 14px; background-color: var(--color-accent);" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     focusable="false">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                  <polyline points="14 2 14 8 20 8"/>
+                  <line x1="16" y1="13" x2="8" y2="13"/>
+                  <line x1="16" y1="17" x2="8" y2="17"/>
+                  <polyline points="10 9 9 9 8 9"/>
+                </svg>
+              </div>
+              <h3 class="card-title">ICANN Policy &amp; Health Domains</h3>
+              <p class="card-text">Monitoring ICANN policy developments affecting health-related top-level domains and filing public comments on behalf of patient advocacy interests.</p>
+              <span class="news-card-tag" style="margin-top: 12px; display: inline-block;">Ongoing</span>
+            </div>
+          </div>
+
+          <div style="text-align: center; margin-top: 40px;">
+            <p style="color: var(--color-text-mid); margin-bottom: 16px;">Interested in joining a student research project?</p>
+            <a href="contact.html" class="btn btn-primary">Get Involved</a>
+          </div>
+        </div><!-- /#panel-projects -->
+
+        <!-- Tab Panel: Partners -->
+        <div class="tab-panel" id="panel-partners" role="tabpanel" aria-labelledby="tab-partners">
+          <div class="section-header">
+            <h2 class="section-title">Research Partners</h2>
+            <p class="section-subtitle">MedCivic collaborates with academic institutions, civil society organizations, and domain name industry bodies to amplify our research impact.</p>
+          </div>
+
+          <div class="grid-2" style="margin-bottom: 40px;">
+
+            <div class="card">
+              <div style="display: flex; align-items: flex-start; gap: 16px;">
+                <div class="icon-circle-sm" style="background-color: var(--color-navy); flex-shrink: 0;" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                       stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                       focusable="false">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                    <polyline points="9 22 9 12 15 12 15 22"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="card-title">Academic Institutions</h3>
+                  <p class="card-text">We work with university public health, law, and computer science programs to co-publish research and mentor student contributors on joint projects.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div style="display: flex; align-items: flex-start; gap: 16px;">
+                <div class="icon-circle-sm" style="background-color: var(--color-navy); flex-shrink: 0;" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                       stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                       focusable="false">
+                    <circle cx="12" cy="12" r="10"/>
+                    <line x1="2" y1="12" x2="22" y2="12"/>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="card-title">Internet Governance Bodies</h3>
+                  <p class="card-text">MedCivic participates in ICANN Public Comment processes and multi-stakeholder working groups addressing health domain abuse and consumer protection.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div style="display: flex; align-items: flex-start; gap: 16px;">
+                <div class="icon-circle-sm" style="background-color: var(--color-navy); flex-shrink: 0;" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                       stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                       focusable="false">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="card-title">Patient Advocacy Organizations</h3>
+                  <p class="card-text">Partnering with patient-focused nonprofits to ground our research in lived experience and ensure findings reach the communities most affected.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div style="display: flex; align-items: flex-start; gap: 16px;">
+                <div class="icon-circle-sm" style="background-color: var(--color-navy); flex-shrink: 0;" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                       stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                       focusable="false">
+                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="card-title">Policy &amp; Civil Society Groups</h3>
+                  <p class="card-text">Collaborating with digital rights organizations and public interest law centers to translate research into legislative testimony and regulatory comment.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div style="text-align: center;">
+            <p style="color: var(--color-text-mid); margin-bottom: 16px;">Interested in a research partnership with MedCivic?</p>
+            <a href="contact.html" class="btn btn-primary">Contact Us</a>
+          </div>
+        </div><!-- /#panel-partners -->
+
+      </div><!-- /.container -->
+    </section>
+
+  </main>
+
+  <!-- =====================================================================
+       Footer
+  ====================================================================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-main">
+      <div class="container">
+        <div class="footer-grid">
+
+          <!-- Brand -->
+          <div class="footer-brand">
+            <a href="index.html" class="footer-logo">MedCivic</a>
+            <span class="footer-tagline">Medicine · Technology · Public Interest</span>
+            <p>A youth-led nonprofit at the intersection of healthcare and the Internet, building the next generation of health-focused digital policymakers.</p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <nav class="footer-links" aria-label="Footer quick links">
+              <a href="about.html">About Us</a>
+              <a href="research.html">Research</a>
+              <a href="programs.html">Programs</a>
+              <a href="events.html">Events</a>
+              <a href="news.html" style="display:none;">News</a>
+              <a href="team.html">Team</a>
+            </nav>
+          </div>
+
+          <!-- Research -->
+          <div class="footer-col">
+            <h4>Research</h4>
+            <nav class="footer-links" aria-label="Footer research links">
+              <a href="research.html#panel-focus">Focus Areas</a>
+              <a href="research.html#panel-publications">Publications</a>
+              <a href="research.html#panel-projects">Student Projects</a>
+              <a href="research.html#panel-partners">Partners</a>
+            </nav>
+          </div>
+
+          <!-- Contact -->
+          <div class="footer-col footer-contact">
+            <h4>Connect</h4>
+            <address>
+              <p>MedCivic<br />
+              A Youth-Led Nonprofit<br />
+              United States</p>
+              <p><a href="mailto:info@medcivic.org">info@medcivic.org</a></p>
+            </address>
+            <div class="footer-social" aria-label="Social media links">
+              <a href="#" aria-label="Twitter / X">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true" focusable="false">
+                  <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/>
+                </svg>
+              </a>
+              <a href="#" aria-label="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true" focusable="false">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                  <rect x="2" y="9" width="4" height="12"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
+              </a>
+              <a href="#" aria-label="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true" focusable="false">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+        </div><!-- /.footer-grid -->
+      </div><!-- /.container -->
+    </div><!-- /.footer-main -->
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2024 MedCivic. All rights reserved. A registered 501(c)(3) nonprofit organization.</p>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Use</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =====================================================================
+       Mobile Menu JS
+  ====================================================================== -->
+  <script>
+    (function () {
+      var toggle = document.querySelector('.navbar-toggle');
+      var mobileNav = document.querySelector('.navbar-mobile');
+
+      if (!toggle || !mobileNav) return;
+
+      toggle.addEventListener('click', function () {
+        var isOpen = mobileNav.classList.contains('open');
+        mobileNav.classList.toggle('open', !isOpen);
+        toggle.classList.toggle('open', !isOpen);
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+
+        // Show the mobile nav element itself
+        if (!isOpen) {
+          mobileNav.style.display = 'block';
+        } else {
+          // Wait for transition to finish before hiding
+          mobileNav.addEventListener('transitionend', function hide() {
+            if (!mobileNav.classList.contains('open')) {
+              mobileNav.style.display = '';
+            }
+            mobileNav.removeEventListener('transitionend', hide);
+          });
+        }
+      });
+
+      // Close when a nav link is clicked
+      mobileNav.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', function () {
+          mobileNav.classList.remove('open');
+          toggle.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+
+      // Close on outside click
+      document.addEventListener('click', function (e) {
+        if (!toggle.contains(e.target) && !mobileNav.contains(e.target)) {
+          mobileNav.classList.remove('open');
+          toggle.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    })();
+  </script>
+
+  <!-- Tab switching JS -->
+  <script>
+    (function () {
+      var tabs = document.querySelectorAll('.tab-btn');
+      var panels = document.querySelectorAll('.tab-panel');
+
+      tabs.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var targetId = btn.getAttribute('aria-controls');
+
+          // Deactivate all tabs and panels
+          tabs.forEach(function (t) {
+            t.classList.remove('active');
+            t.setAttribute('aria-selected', 'false');
+          });
+          panels.forEach(function (p) {
+            p.classList.remove('active');
+          });
+
+          // Activate clicked tab and its panel
+          btn.classList.add('active');
+          btn.setAttribute('aria-selected', 'true');
+          var panel = document.getElementById(targetId);
+          if (panel) panel.classList.add('active');
+        });
+      });
+    })();
+  </script>
+
+</body>
+</html>
